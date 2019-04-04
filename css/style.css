@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+body {
+  height: 100vh;
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 31%, rgba(148, 187, 233, 1) 48%);
+  font-family: 'lora', cursive;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 10vmin;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: grey;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.button {
+  font-size: 8vmin;
+  font-size: 50px;
+  color: grey;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width:650px) {
+  .button {
+    font-size: 30px;
+  }
+}
